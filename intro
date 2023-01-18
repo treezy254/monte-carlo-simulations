@@ -1,0 +1,74 @@
+Simulations
+---
+Experiments that attempt to imitate reality
+Often use computer programs
+
+Stochastic models simulate randomness in variables by using sampling. This randomness means that each simulation will likely arrive
+at a different expected outcome, even when the inputs are the same.
+
+Monte Carlo Simulations:
+----
+-Used to predict the probability of different outcomes by the presence of random variables
+- rely on repeated random sampling to obtain numerical results
+- Results are stocastic since the model relies on random sampling
+
+
+The Law of Large Numbers
+---
+As the number of identically distributed, randomly generated variables increases, their sample mean approaches their theoretical mean.
+
+Resampling as a special type of Monte Carlo Simulation
+---
+
+Monte Carlo Simulation
+--
+- Sample from probability distributions
+- Distributions eiter known or assumed
+- Rely on historical data or expertise to choose proper distributions
+
+Resampling
+---
+- Dample randomly from exiting data
+- Existing data is implicit probability distribution
+- Assume that data is representative
+
+Resampling Methods
+---
+1. sampling without replacement
+- used to draw random sam ple
+
+
+2. Sampling with replacement(or bootstraping)
+- Use to estimate the sampling distribution of almost any statistic
+
+3. Permutation
+- Often used to compare two groups
+
+
+Leveraging Monte Carlo simulations
+---
+Monte carlo simulation are used in fileds such as...
+
+Finance and business
+	- Stock price prediction
+	- Risk management
+Engineering
+	- Reliability analysis in engineering
+Physical Science
+	- Binding site identification
+
+
+Benefits of Monte Carlo Simulation
+---
+-Take into consideration a range of values for various inputs
+- Show not only what could happen, but how likely each outcome is
+- Make it easy to visualize the range of possible outcome
+- Can examine what would have happend under different circumstance
+
+
+Limitations in Monte Carlo Simulations
+---
+- Model output is only as good as model input
+- Probability of extreme events is often underestimated
+
+NOTE: All models are wrong, some are useful
